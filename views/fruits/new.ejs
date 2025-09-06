@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Fruits</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+</head>
+<body>
+    <h1>Add New Fruits</h1>
+    <form action="/fruits" method="POST">
+        <label for="name">Name:</label>
+    <input type="text" name="name" id="name">
+
+    <div class="checkbox-div">
+    <label for="isReadyToEat">Is Ready To Eat?</label>
+    <input type="checkbox" name="isReadyToEat" id="isReadyToEat">
+    </div>
+    
+    <button type="submit">Create New Fruit</button>
+    </form>
+    <a href="/fruits/">Back to Fruits</a>
+</body>
+</html>
